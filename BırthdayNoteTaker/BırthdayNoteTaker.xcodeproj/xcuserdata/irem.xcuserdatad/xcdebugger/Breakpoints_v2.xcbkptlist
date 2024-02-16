@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "3010A275-65FB-4630-A32C-4B19F2DAAC15"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "12ABE048-A563-40ED-BBA6-BD12376ACD7D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "B&#x131;rthdayNoteTaker/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "nameTextField"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "12ABE048-A563-40ED-BBA6-BD12376ACD7D - e85dae5ed85702b8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "B&#x131;rthdayNoteTaker.ViewController.namelabel.getter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "B&#x131;rthdayNoteTaker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/irem/Desktop/projectsSwift/B%C4%B1rthdayNoteTaker/B%C4%B1rthdayNoteTaker/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "12ABE048-A563-40ED-BBA6-BD12376ACD7D - 661635731643aeb4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "B&#x131;rthdayNoteTaker.ViewController.namelabel.setter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "B&#x131;rthdayNoteTaker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/irem/Desktop/projectsSwift/B%C4%B1rthdayNoteTaker/B%C4%B1rthdayNoteTaker/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "12ABE048-A563-40ED-BBA6-BD12376ACD7D - 405bb02aa1972ba5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "B&#x131;rthdayNoteTaker.ViewController.namelabel.modify : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "B&#x131;rthdayNoteTaker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/irem/Desktop/projectsSwift/B%C4%B1rthdayNoteTaker/B%C4%B1rthdayNoteTaker/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "12ABE048-A563-40ED-BBA6-BD12376ACD7D - 574fd5252d7a1248"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "B&#x131;rthdayNoteTaker.ViewController.namelabel.modify : Swift.Optional&lt;__C.UILabel&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "B&#x131;rthdayNoteTaker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/irem/Desktop/projectsSwift/B%C4%B1rthdayNoteTaker/B%C4%B1rthdayNoteTaker/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "12ABE048-A563-40ED-BBA6-BD12376ACD7D - 58f921c9afcdb116"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "B&#x131;rthdayNoteTaker.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; B&#x131;rthdayNoteTaker.ViewController"
+                  moduleName = "B&#x131;rthdayNoteTaker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/irem/Desktop/projectsSwift/B%C4%B1rthdayNoteTaker/B%C4%B1rthdayNoteTaker/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "176">
+               </Location>
+               <Location
+                  uuid = "12ABE048-A563-40ED-BBA6-BD12376ACD7D - 2bdfa5f5babb630b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "B&#x131;rthdayNoteTaker.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;B&#x131;rthdayNoteTaker.ViewController&gt;"
+                  moduleName = "B&#x131;rthdayNoteTaker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/irem/Desktop/projectsSwift/B%C4%B1rthdayNoteTaker/B%C4%B1rthdayNoteTaker/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "152">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
