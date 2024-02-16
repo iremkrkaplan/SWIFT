@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="alertProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="enter name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DVq-u3-asg">
+                                <rect key="frame" x="32" y="148" width="313" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="enter password again" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SqU-SD-2fs">
+                                <rect key="frame" x="32" y="244" width="313" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vA9-92-AfL">
+                                <rect key="frame" x="155" y="349" width="84" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Sign Up"/>
+                                <connections>
+                                    <action selector="signUpButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="o4e-fn-YwH"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="enter password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1Wy-9g-S8H">
+                                <rect key="frame" x="32" y="190" width="313" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="vA9-92-AfL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2Qd-Sy-ekb"/>
+                            <constraint firstItem="1Wy-9g-S8H" firstAttribute="leading" secondItem="SqU-SD-2fs" secondAttribute="leading" id="4vW-Ad-SF3"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="DVq-u3-asg" secondAttribute="trailing" constant="48" id="Hjz-zZ-xw9"/>
+                            <constraint firstItem="vA9-92-AfL" firstAttribute="top" secondItem="SqU-SD-2fs" secondAttribute="bottom" constant="71" id="Iji-JT-SXa"/>
+                            <constraint firstItem="DVq-u3-asg" firstAttribute="trailing" secondItem="1Wy-9g-S8H" secondAttribute="trailing" id="RSO-jN-g8f"/>
+                            <constraint firstItem="vA9-92-AfL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="155" id="Soo-Q2-4JA"/>
+                            <constraint firstItem="SqU-SD-2fs" firstAttribute="top" secondItem="1Wy-9g-S8H" secondAttribute="bottom" constant="20" id="T4A-rt-oOW"/>
+                            <constraint firstItem="1Wy-9g-S8H" firstAttribute="top" secondItem="DVq-u3-asg" secondAttribute="bottom" constant="8" id="Te0-Uw-CBp"/>
+                            <constraint firstItem="DVq-u3-asg" firstAttribute="leading" secondItem="1Wy-9g-S8H" secondAttribute="leading" id="VgN-HL-G0Z"/>
+                            <constraint firstItem="DVq-u3-asg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="bNf-Dt-9Cg"/>
+                            <constraint firstItem="1Wy-9g-S8H" firstAttribute="trailing" secondItem="SqU-SD-2fs" secondAttribute="trailing" id="fBJ-Za-nef"/>
+                            <constraint firstItem="DVq-u3-asg" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="89" id="zP3-Rr-xSt"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="nametext" destination="DVq-u3-asg" id="ilG-P6-ygL"/>
+                        <outlet property="passwordText" destination="1Wy-9g-S8H" id="otT-ZI-vaU"/>
+                        <outlet property="passwordText2" destination="SqU-SD-2fs" id="LVf-Wv-6kS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="57.251908396946561" y="-34.507042253521128"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
